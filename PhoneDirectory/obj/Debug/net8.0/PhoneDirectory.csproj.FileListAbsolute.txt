@@ -128,3 +128,4 @@ C:\MyDev\PhoneDirectory\PhoneDirectory\obj\Debug\net8.0\refint\PhoneDirectory.dl
 C:\MyDev\PhoneDirectory\PhoneDirectory\obj\Debug\net8.0\PhoneDirectory.pdb
 C:\MyDev\PhoneDirectory\PhoneDirectory\obj\Debug\net8.0\PhoneDirectory.genruntimeconfig.cache
 C:\MyDev\PhoneDirectory\PhoneDirectory\obj\Debug\net8.0\ref\PhoneDirectory.dll
+C:\MyDev\PhoneDirectory\PhoneDirectory\obj\Debug\net8.0\PhoneDirectory.sourcelink.json
