@@ -16,14 +16,16 @@ namespace PhoneDirectory
             PhoneBookEntry pbe5 = new PhoneBookEntry() { Number = "086-222555888", Name = "Sheila Shine", Address = "Gatehouse" };
             PhoneBookEntry pbe6 = new PhoneBookEntry() { Number = "085-12121254", Name = "Joe Bloggs", Address = "Apartment 3B" };
 
-            /*
+            //Commenting the example pieces
+
+            /* 
             utils.CreateNewPBE(pbe1);
             utils.CreateNewPBE(pbe2);
             utils.CreateNewPBE(pbe3);
             utils.CreateNewPBE(pbe4);
             utils.CreateNewPBE(pbe5);
             utils.CreateNewPBE(pbe6);
-            */
+
 
             utils.ReadAllPBE();
             Console.WriteLine("-------------------");
@@ -38,6 +40,7 @@ namespace PhoneDirectory
 
             utils.ReadAllPBE();
             Console.WriteLine("-------------------");
+            */
 
 
             //The actual lab requirements
