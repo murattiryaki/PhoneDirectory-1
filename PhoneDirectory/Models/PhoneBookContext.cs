@@ -9,7 +9,7 @@ namespace PhoneDirectory.Models
 {
     public class PhoneBookContext : DbContext
     {
-        private const string connectionString = "Server=(localdb)\\mssqllocaldb;Database=PhoneDirectory104;Trusted_Connection=False;";
+        private const string connectionString = "Server=(localdb)\\mssqllocaldb;Database=PhoneDirectory100;Trusted_Connection=False;";
 
         public DbSet<PhoneBookEntry> Directory { get; set; }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OwuSi8iIkJRKkxSMjsjVNhGtDnWmtgPthKYjRLdIK9JkHpZJ0KXGKCt8hTiaWTbcUp1E9yg21LtFGpknSgGtZg==",
+  "dgSpecHash": "BL7IglEcrWeD4Fv7gmffTUEFhO6aEBCXyB0vv0ViQqhpBewVYs/dH/6mBofNNhFY8cgK6nJBedFieg2Uz4aacw==",
   "success": true,
-  "projectFilePath": "C:\\mydev\\PhoneDirectory\\PhoneDirectory\\PhoneDirectory.csproj",
+  "projectFilePath": "C:\\MyDev\\PhoneDirectory\\PhoneDirectory\\PhoneDirectory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dermo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\dermo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

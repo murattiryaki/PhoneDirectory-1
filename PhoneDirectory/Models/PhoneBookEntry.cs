@@ -15,13 +15,10 @@ namespace PhoneDirectory.Models
         public string Name { get; set; }
         [Required]
         public string Address { get; set; }
-        [Required]
-        public string Prefix { get; set; }
-        public string PostCode { get; set; }
 
         public override string ToString()
         {
-            return $"Name: {Name} | Number {Number} | Address: {Address} | Prefix: {Prefix} | PostCode: {PostCode}";
+            return $"Name: {Name} | Number {Number} | Address: {Address}";
         }
     }
 }
