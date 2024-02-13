@@ -30,6 +30,8 @@ namespace PhoneDirectory
             {
                 found.Address = pbe.Address;
                 found.Name = pbe.Name;
+                found.Prefix = pbe.Prefix;
+                found.PostCode = pbe.PostCode;
                 ctx.Update(found);
                 ctx.SaveChanges();
             }
