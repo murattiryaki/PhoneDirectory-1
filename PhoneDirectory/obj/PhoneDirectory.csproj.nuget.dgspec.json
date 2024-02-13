@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyDev\\PhoneDirectory\\PhoneDirectory\\PhoneDirectory.csproj": {}
+    "C:\\mydev\\PhoneDirectory\\PhoneDirectory\\PhoneDirectory.csproj": {}
   },
   "projects": {
-    "C:\\MyDev\\PhoneDirectory\\PhoneDirectory\\PhoneDirectory.csproj": {
+    "C:\\mydev\\PhoneDirectory\\PhoneDirectory\\PhoneDirectory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyDev\\PhoneDirectory\\PhoneDirectory\\PhoneDirectory.csproj",
+        "projectUniqueName": "C:\\mydev\\PhoneDirectory\\PhoneDirectory\\PhoneDirectory.csproj",
         "projectName": "PhoneDirectory",
-        "projectPath": "C:\\MyDev\\PhoneDirectory\\PhoneDirectory\\PhoneDirectory.csproj",
+        "projectPath": "C:\\mydev\\PhoneDirectory\\PhoneDirectory\\PhoneDirectory.csproj",
         "packagesPath": "C:\\Users\\dermo\\.nuget\\packages\\",
-        "outputPath": "C:\\MyDev\\PhoneDirectory\\PhoneDirectory\\obj\\",
+        "outputPath": "C:\\mydev\\PhoneDirectory\\PhoneDirectory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

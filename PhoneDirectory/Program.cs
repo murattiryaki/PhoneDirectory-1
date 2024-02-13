@@ -1,8 +1,6 @@
 ﻿using PhoneDirectory.Models;
 //Dermot Boyle comment
-// Robin Wiman
-// Aileen Donegan (again!)
-// Lucas Castro
+
 
 namespace PhoneDirectory
 {
@@ -13,38 +11,43 @@ namespace PhoneDirectory
             PhoneBookUtils utils = new PhoneBookUtils();
 
 
-            PhoneBookEntry pbe1 = new PhoneBookEntry() { Number = "042-9034390", Name = "Jemmy Ned", Address = "House 1" };
-            PhoneBookEntry pbe2 = new PhoneBookEntry() { Number = "085-123456", Name = "Billy McBurty", Address = "Cottage 2" };
-            PhoneBookEntry pbe3 = new PhoneBookEntry() { Number = "01-5558889", Name = "Nellie Nagoo", Address = "House 45" };
-            PhoneBookEntry pbe4 = new PhoneBookEntry() { Number = "089-5677776", Name = "Mary Maleady", Address = "Castle on hill" };
-            PhoneBookEntry pbe5 = new PhoneBookEntry() { Number = "086-222555888", Name = "Sheila Shine", Address = "Gatehouse" };
-            PhoneBookEntry pbe6 = new PhoneBookEntry() { Number = "085-12121254", Name = "Joe Bloggs", Address = "Apartment 3B" };
+            PhoneBookEntry pbe1 = new PhoneBookEntry() { Number = "042-9034999", Name = "Conchúir", Address = "Anne St", Prefix="Mr" };
+            PhoneBookEntry pbe2 = new PhoneBookEntry() { Number = "085-123456", Name = "Billy McBurty", Address = "Cottage 2", Prefix="Prof" };
+            PhoneBookEntry pbe3 = new PhoneBookEntry() { Number = "01-5558889", Name = "Nellie Nagoo", Address = "House 45", Prefix="Ms", PostCode="D16" };
+            PhoneBookEntry pbe4 = new PhoneBookEntry() { Number = "089-5677776", Name = "Mary Maleady", Address = "Castle on hill", Prefix="Dr.", PostCode="BT56" };
+//            PhoneBookEntry pbe5 = new PhoneBookEntry() { Number = "086-222555888", Name = "Sheila Shine", Address = "Gatehouse" };
+//            PhoneBookEntry pbe6 = new PhoneBookEntry() { Number = "085-12121254", Name = "Joe Bloggs", Address = "Apartment 3B" };
 
             //Commenting the example pieces
 
-            /* 
-            utils.CreateNewPBE(pbe1);
-            utils.CreateNewPBE(pbe2);
-            utils.CreateNewPBE(pbe3);
-            utils.CreateNewPBE(pbe4);
+             
+            //utils.CreateNewPBE(pbe1);
+            
+            //utils.CreateNewPBE(pbe2);
+            
+            //utils.CreateNewPBE(pbe3);
+            //utils.CreateNewPBE(pbe4);
+            /*
             utils.CreateNewPBE(pbe5);
             utils.CreateNewPBE(pbe6);
 
-
-            utils.ReadAllPBE();
-            Console.WriteLine("-------------------");
-
-            pbe1.Address = "More Upmarket House 2";
-            utils.UpdatePBE(pbe1);
-
-            utils.ReadAllPBE();
-            Console.WriteLine("-------------------");
-
-            utils.DeletePBE(pbe6);
-
-            utils.ReadAllPBE();
-            Console.WriteLine("-------------------");
             */
+            utils.ReadAllPBE();
+            Console.WriteLine("-------------------");
+            
+            pbe1.PostCode = "D6";
+            utils.UpdatePBE(pbe1);
+            pbe2.PostCode = "D9";
+            utils.UpdatePBE(pbe2);
+
+            utils.ReadAllPBE();
+            Console.WriteLine("-------------------");
+
+/*            utils.DeletePBE(pbe6);
+
+            utils.ReadAllPBE();
+            Console.WriteLine("-------------------");
+  
 
 
             //The actual lab requirements
@@ -69,6 +72,8 @@ namespace PhoneDirectory
             {
                 Console.WriteLine($"Number: {record.Number} | Address: {record.Address}");
             }
+
+            */
 
 
         }
