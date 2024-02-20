@@ -3,6 +3,7 @@
 // Robin Wiman
 // Aileen Donegan (again!)
 // Lucas Castro
+//Afua Bonsu
 
 namespace PhoneDirectory
 {
